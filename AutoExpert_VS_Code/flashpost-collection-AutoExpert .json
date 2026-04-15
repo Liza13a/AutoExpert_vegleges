@@ -1,0 +1,1495 @@
+{
+    "app": "Flashpost",
+    "id": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+    "name": "AutoExpert ",
+    "version": "1.0",
+    "type": "collections",
+    "createdTime": "02-Mar-2026 08:48:03",
+    "exportedDate": "02-Mar-2026 13:25:29",
+    "collections": [
+        {
+            "id": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "parent": "0",
+            "text": "AutoExpert ",
+            "createdTime": "02-Mar-2026 08:48:03",
+            "droppable": true,
+            "data": {
+                "treeNodeType": "collection",
+                "variableId": ""
+            },
+            "relativeIndex": 0
+        },
+        {
+            "id": "f6d2a57d-ac72-4005-b30a-8330e0e50c57",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Patch service_record_update",
+            "createdTime": "02-Mar-2026 08:56:35",
+            "droppable": false,
+            "data": {
+                "id": "f6d2a57d-ac72-4005-b30a-8330e0e50c57",
+                "method": "patch",
+                "name": "Patch service_record_update",
+                "url": "localhost:2000/api/service_records/69a56a18400961ae423c30b1",
+                "createdTime": "02-Mar-2026 08:56:35",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 6
+        },
+        {
+            "id": "de5414b9-87fd-4258-8ff4-9fd251e7919a",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Get serv_rec_request",
+            "createdTime": "02-Mar-2026 08:56:14",
+            "droppable": false,
+            "data": {
+                "id": "de5414b9-87fd-4258-8ff4-9fd251e7919a",
+                "method": "get",
+                "name": "Get serv_rec_request",
+                "url": "localhost:2000/api/service_records",
+                "createdTime": "02-Mar-2026 08:56:14",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 10
+        },
+        {
+            "id": "11f3d126-6a9b-45b9-8d1d-4ce496efd588",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Get repair_shops",
+            "createdTime": "02-Mar-2026 08:55:44",
+            "droppable": false,
+            "data": {
+                "id": "11f3d126-6a9b-45b9-8d1d-4ce496efd588",
+                "method": "get",
+                "name": "Get repair_shops",
+                "url": "localhost:2000/api/repair_shops",
+                "createdTime": "02-Mar-2026 08:55:44",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 7
+        },
+        {
+            "id": "d7bf011e-9feb-4d3f-a00f-0d11eb42fad6",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Get repair_shops_service_records",
+            "createdTime": "02-Mar-2026 08:55:17",
+            "droppable": false,
+            "data": {
+                "id": "d7bf011e-9feb-4d3f-a00f-0d11eb42fad6",
+                "method": "get",
+                "name": "Get repair_shops_service_records",
+                "url": "localhost:2000/api/repair_shops/1/service_records",
+                "createdTime": "02-Mar-2026 08:55:17",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 8
+        },
+        {
+            "id": "a3206ab5-9f6c-41ed-8d1e-2ab68f7cab23",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Get repair_shop_Id",
+            "createdTime": "02-Mar-2026 08:54:49",
+            "droppable": false,
+            "data": {
+                "id": "a3206ab5-9f6c-41ed-8d1e-2ab68f7cab23",
+                "method": "get",
+                "name": "Get repair_shop_Id",
+                "url": "localhost:2000/api/repair_shops/5/car_configs",
+                "createdTime": "02-Mar-2026 08:54:49",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 9
+        },
+        {
+            "id": "1e5893ed-4f59-4264-bc9f-7b465659345f",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Post new_service_record",
+            "createdTime": "02-Mar-2026 08:54:32",
+            "droppable": false,
+            "data": {
+                "id": "1e5893ed-4f59-4264-bc9f-7b465659345f",
+                "method": "post",
+                "name": "Post new_service_record",
+                "url": "localhost:2000/api/service_records",
+                "createdTime": "02-Mar-2026 08:54:32",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 4
+        },
+        {
+            "id": "0dc12055-3570-4c68-a82e-d8a304177a31",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Patch Id_car_configs",
+            "createdTime": "02-Mar-2026 08:52:11",
+            "droppable": false,
+            "data": {
+                "id": "0dc12055-3570-4c68-a82e-d8a304177a31",
+                "method": "patch",
+                "name": "Patch Id_car_configs",
+                "url": "localhost:2000/api/car_configs/69a569a7400961ae423c30a9",
+                "createdTime": "02-Mar-2026 08:52:11",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 5
+        },
+        {
+            "id": "26c90eb5-88d0-4370-8cb6-8a72843c6220",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Post forgot_password",
+            "createdTime": "02-Mar-2026 08:51:07",
+            "droppable": false,
+            "data": {
+                "id": "26c90eb5-88d0-4370-8cb6-8a72843c6220",
+                "method": "post",
+                "name": "Post forgot_password",
+                "url": "localhost:2000/api/forgotpassword",
+                "createdTime": "02-Mar-2026 08:51:07",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 1
+        },
+        {
+            "id": "c2ed8627-05f3-462a-a622-9d2382e2d2a0",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Delete delete_service_records",
+            "createdTime": "02-Mar-2026 08:50:51",
+            "droppable": false,
+            "data": {
+                "id": "c2ed8627-05f3-462a-a622-9d2382e2d2a0",
+                "method": "delete",
+                "name": "Delete delete_service_records",
+                "url": "localhost:2000/api/service_records/69a56a18400961ae423c30b1",
+                "createdTime": "02-Mar-2026 08:50:51",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 12
+        },
+        {
+            "id": "d6fe3303-6d4f-4ae9-80e0-a46b7d9cd0bb",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Delete delete_car",
+            "createdTime": "02-Mar-2026 08:50:33",
+            "droppable": false,
+            "data": {
+                "id": "d6fe3303-6d4f-4ae9-80e0-a46b7d9cd0bb",
+                "method": "delete",
+                "name": "Delete delete_car",
+                "url": "localhost:2000/api/car_configs/69a56fb0bc9096d655e9226d",
+                "createdTime": "02-Mar-2026 08:50:33",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 11
+        },
+        {
+            "id": "0c4f74f7-749c-4154-b744-75d1fc2cbc72",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Post new_car_user",
+            "createdTime": "02-Mar-2026 08:50:04",
+            "droppable": false,
+            "data": {
+                "id": "0c4f74f7-749c-4154-b744-75d1fc2cbc72",
+                "method": "post",
+                "name": "Post new_car_user",
+                "url": "localhost:2000/api/car_configs",
+                "createdTime": "02-Mar-2026 08:50:04",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 3
+        },
+        {
+            "id": "c7cc3d94-233e-4d04-8f1a-d4c4c9371fea",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Post register",
+            "createdTime": "02-Mar-2026 08:49:12",
+            "droppable": false,
+            "data": {
+                "id": "c7cc3d94-233e-4d04-8f1a-d4c4c9371fea",
+                "method": "post",
+                "name": "Post register",
+                "url": "localhost:2000/api/register",
+                "createdTime": "02-Mar-2026 08:49:12",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": 2
+        },
+        {
+            "id": "98555859-bf2a-45a3-8567-42d48b96af0a",
+            "parent": "bc8de328-c57a-45ce-974f-735b6a3dc6ed",
+            "text": "Post login ",
+            "createdTime": "02-Mar-2026 08:48:41",
+            "droppable": false,
+            "data": {
+                "id": "98555859-bf2a-45a3-8567-42d48b96af0a",
+                "method": "post",
+                "name": "Post login ",
+                "url": "localhost:2000/api/login",
+                "createdTime": "02-Mar-2026 08:48:41",
+                "treeNodeType": "request"
+            },
+            "relativeIndex": -1
+        }
+    ],
+    "requests": [
+        {
+            "id": "f6d2a57d-ac72-4005-b30a-8330e0e50c57",
+            "url": "localhost:2000/api/service_records/69a56a18400961ae423c30b1",
+            "name": "Patch service_record_update",
+            "createdTime": "02-Mar-2026 08:56:35",
+            "method": "patch",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "bearertoken",
+                "userName": "",
+                "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTU0MzdmNjNjNjYyZTc5NTI1MzY3NCIsImlhdCI6MTc3MjQzODQ2OCwiZXhwIjoxNzc1MDMwNDY4fQ.QFtstyyXdNKmNKJ9hmYEUh9prqnpEB5xh5cHeWsJr8g",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "Bearer",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "isChecked": true,
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "isFixed": false
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "raw",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "{\r\n    \"description\":\"Szürőcsere\"\r\n}",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "de5414b9-87fd-4258-8ff4-9fd251e7919a",
+            "url": "localhost:2000/api/service_records",
+            "name": "Get serv_rec_request",
+            "createdTime": "02-Mar-2026 08:56:14",
+            "method": "get",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "bearertoken",
+                "userName": "",
+                "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTU0MzdmNjNjNjYyZTc5NTI1MzY3NCIsImlhdCI6MTc3MjQzODQ2OCwiZXhwIjoxNzc1MDMwNDY4fQ.QFtstyyXdNKmNKJ9hmYEUh9prqnpEB5xh5cHeWsJr8g",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "Bearer",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "none",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "11f3d126-6a9b-45b9-8d1d-4ce496efd588",
+            "url": "localhost:2000/api/repair_shops",
+            "name": "Get repair_shops",
+            "createdTime": "02-Mar-2026 08:55:44",
+            "method": "get",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "noauth",
+                "userName": "",
+                "password": "",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "none",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "d7bf011e-9feb-4d3f-a00f-0d11eb42fad6",
+            "url": "localhost:2000/api/repair_shops/1/service_records",
+            "name": "Get repair_shops_service_records",
+            "createdTime": "02-Mar-2026 08:55:17",
+            "method": "get",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "noauth",
+                "userName": "",
+                "password": "",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "none",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "a3206ab5-9f6c-41ed-8d1e-2ab68f7cab23",
+            "url": "localhost:2000/api/repair_shops/5/car_configs",
+            "name": "Get repair_shop_Id",
+            "createdTime": "02-Mar-2026 08:54:49",
+            "method": "get",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "noauth",
+                "userName": "",
+                "password": "",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "none",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "1e5893ed-4f59-4264-bc9f-7b465659345f",
+            "url": "localhost:2000/api/service_records",
+            "name": "Post new_service_record",
+            "createdTime": "02-Mar-2026 08:54:32",
+            "method": "post",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "bearertoken",
+                "userName": "",
+                "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTU0MzdmNjNjNjYyZTc5NTI1MzY3NCIsImlhdCI6MTc3MjQzODQ2OCwiZXhwIjoxNzc1MDMwNDY4fQ.QFtstyyXdNKmNKJ9hmYEUh9prqnpEB5xh5cHeWsJr8g",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "Bearer",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "isChecked": true,
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "isFixed": false
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "raw",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "{\r\n    \"car_config_id\":\"69a56fb0bc9096d655e9226d\",\r\n    \"repair_shop_id\":\"3\",\r\n    \"employee_id\":\"5\",\r\n    \"service_date\":\"2024.03.02\",\r\n    \"description\":\"Flexicső szerelés\",\r\n    \"cost\":\"17000\"\r\n}",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "0dc12055-3570-4c68-a82e-d8a304177a31",
+            "url": "localhost:2000/api/car_configs/69a569a7400961ae423c30a9",
+            "name": "Patch Id_car_configs",
+            "createdTime": "02-Mar-2026 08:52:11",
+            "method": "patch",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [
+                {
+                    "key": "id",
+                    "value": "69a569a7400961ae423c30a9"
+                }
+            ],
+            "auth": {
+                "authType": "bearertoken",
+                "userName": "",
+                "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTU0MzdmNjNjNjYyZTc5NTI1MzY3NCIsImlhdCI6MTc3MjQzODQ2OCwiZXhwIjoxNzc1MDMwNDY4fQ.QFtstyyXdNKmNKJ9hmYEUh9prqnpEB5xh5cHeWsJr8g",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "Bearer",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "isChecked": true,
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "isFixed": false
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "raw",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "{\r\n    \"model\":\"RS3 \"\r\n}",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "26c90eb5-88d0-4370-8cb6-8a72843c6220",
+            "url": "localhost:2000/api/forgotpassword",
+            "name": "Post forgot_password",
+            "createdTime": "02-Mar-2026 08:51:07",
+            "method": "post",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "bearertoken",
+                "userName": "",
+                "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTU0MzdmNjNjNjYyZTc5NTI1MzY3NCIsImlhdCI6MTc3MjQzODQ2OCwiZXhwIjoxNzc1MDMwNDY4fQ.QFtstyyXdNKmNKJ9hmYEUh9prqnpEB5xh5cHeWsJr8g",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "Bearer",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "isChecked": true,
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "isFixed": false
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "raw",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "{\r\n    \"email\":\"user5@mail.com\",\r\n    \"password\":\"password5\"\r\n}",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "c2ed8627-05f3-462a-a622-9d2382e2d2a0",
+            "url": "localhost:2000/api/service_records/69a56a18400961ae423c30b1",
+            "name": "Delete delete_service_records",
+            "createdTime": "02-Mar-2026 08:50:51",
+            "method": "delete",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "bearertoken",
+                "userName": "",
+                "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTU0MzdmNjNjNjYyZTc5NTI1MzY3NCIsImlhdCI6MTc3MjQzODQ2OCwiZXhwIjoxNzc1MDMwNDY4fQ.QFtstyyXdNKmNKJ9hmYEUh9prqnpEB5xh5cHeWsJr8g",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "Bearer",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "isChecked": true,
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "isFixed": false
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "raw",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "d6fe3303-6d4f-4ae9-80e0-a46b7d9cd0bb",
+            "url": "localhost:2000/api/car_configs/69a56fb0bc9096d655e9226d",
+            "name": "Delete delete_car",
+            "createdTime": "02-Mar-2026 08:50:33",
+            "method": "delete",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "bearertoken",
+                "userName": "",
+                "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTU0MzdmNjNjNjYyZTc5NTI1MzY3NCIsImlhdCI6MTc3MjQzODQ2OCwiZXhwIjoxNzc1MDMwNDY4fQ.QFtstyyXdNKmNKJ9hmYEUh9prqnpEB5xh5cHeWsJr8g",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "Bearer",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "none",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "0c4f74f7-749c-4154-b744-75d1fc2cbc72",
+            "url": "localhost:2000/api/car_configs",
+            "name": "Post new_car_user",
+            "createdTime": "02-Mar-2026 08:50:04",
+            "method": "post",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "bearertoken",
+                "userName": "",
+                "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTU0MzdmNjNjNjYyZTc5NTI1MzY3NCIsImlhdCI6MTc3MjQ0OTY1MiwiZXhwIjoxNzc1MDQxNjUyfQ.HmW54Z-UI28MSFNOyX5bBMsh7RuCxb-etRxTS5-hP2Y",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "Bearer",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "isChecked": true,
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "isFixed": false
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "raw",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "{\r\n    \"brand\":\"Suzuki\",\r\n    \"model\":\"Ignis\",\r\n    \"engine_type\":\"1.4 benzin\"\r\n}",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "c7cc3d94-233e-4d04-8f1a-d4c4c9371fea",
+            "url": "localhost:2000/api/register",
+            "name": "Post register",
+            "createdTime": "02-Mar-2026 08:49:12",
+            "method": "post",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "noauth",
+                "userName": "",
+                "password": "",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "isChecked": true,
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "isFixed": false
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "raw",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "{\r\n    \"name\":\"user7\",\r\n    \"email\":\"user7@mail.com\",\r\n    \"password\":\"password7\"\r\n}",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        },
+        {
+            "id": "98555859-bf2a-45a3-8567-42d48b96af0a",
+            "url": "localhost:2000/api/login",
+            "name": "Post login ",
+            "createdTime": "02-Mar-2026 08:48:41",
+            "method": "post",
+            "params": [
+                {
+                    "isChecked": false,
+                    "key": "",
+                    "value": ""
+                }
+            ],
+            "pathParams": [],
+            "auth": {
+                "authType": "bearertoken",
+                "userName": "",
+                "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YTU0MzdmNjNjNjYyZTc5NTI1MzY3NCIsImlhdCI6MTc3MjQzODM5OSwiZXhwIjoxNzc1MDMwMzk5fQ.L-V6SDXnDf_BDUS4HlSH6_lJLDOYpz1uVXr7wHeKXG4",
+                "addTo": "queryparams",
+                "showPwd": false,
+                "tokenPrefix": "Bearer",
+                "aws": {
+                    "service": "",
+                    "region": "",
+                    "accessKey": "",
+                    "secretAccessKey": "",
+                    "sessionToken": ""
+                }
+            },
+            "headers": [
+                {
+                    "key": "Accept",
+                    "value": "*/*",
+                    "isChecked": true
+                },
+                {
+                    "key": "User-Agent",
+                    "value": "Flashpost",
+                    "isChecked": true
+                },
+                {
+                    "isChecked": true,
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "isFixed": false
+                },
+                {
+                    "key": "",
+                    "value": "",
+                    "isChecked": false
+                }
+            ],
+            "body": {
+                "bodyType": "raw",
+                "formdata": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "urlencoded": [
+                    {
+                        "isChecked": false,
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "raw": {
+                    "data": "{\r\n    \"email\":\"user5@mail.com\",\r\n    \"password\":\"password5\"\r\n}",
+                    "lang": "json"
+                },
+                "binary": {
+                    "fileName": "",
+                    "data": {},
+                    "contentTypeOption": "manual"
+                },
+                "graphql": {
+                    "query": "",
+                    "variables": ""
+                }
+            },
+            "tests": [
+                {
+                    "parameter": "",
+                    "action": "",
+                    "expectedValue": ""
+                }
+            ],
+            "setvar": [
+                {
+                    "parameter": "",
+                    "key": "",
+                    "variableName": ""
+                }
+            ],
+            "notes": "",
+            "selectedEnvironmentId": ""
+        }
+    ]
+}

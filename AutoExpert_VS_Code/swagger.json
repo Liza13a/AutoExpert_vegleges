@@ -1,0 +1,309 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "AutoExpert API",
+    "version": "1.0.0",
+    "description": "Autó szerviz backend rendszer - teljes API dokumentáció"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000/api"
+    }
+  ],
+
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+
+  "tags": [
+    { "name": "Auth" },
+    { "name": "Cars" },
+    { "name": "RepairShops" },
+    { "name": "ServiceRecords" }
+  ],
+
+  "paths": {
+
+
+
+    "/register": {
+      "post": {
+        "tags": ["Auth"],
+        "summary": "Felhasználó regisztráció",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "example": {
+                "name": "Teszt Elek",
+                "email": "teszt@email.com",
+                "password": "123456",
+                "role": "user"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Sikeres regisztráció" },
+          "409": { "description": "Email már létezik" }
+        }
+      }
+    },
+
+    "/login": {
+      "post": {
+        "tags": ["Auth"],
+        "summary": "Bejelentkezés",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "example": {
+                "email": "teszt@email.com",
+                "password": "123456"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "JWT token" },
+          "401": { "description": "Hibás adatok" }
+        }
+      }
+    },
+
+    "/forgotpassword": {
+      "post": {
+        "tags": ["Auth"],
+        "summary": "Jelszó visszaállítás",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "example": {
+                "email": "teszt@email.com"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Email elküldve" }
+        }
+      }
+    },
+
+
+
+    "/car_configs": {
+      "post": {
+        "tags": ["Cars"],
+        "summary": "Új autó létrehozása",
+        "security": [{ "bearerAuth": [] }],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "example": {
+                "brand": "BMW",
+                "model": "320d",
+                "engine_type": "Diesel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": { "description": "Autó létrehozva" }
+        }
+      }
+    },
+
+    "/car_configs/{id}": {
+      "patch": {
+        "tags": ["Cars"],
+        "summary": "Autó módosítása",
+        "security": [{ "bearerAuth": [] }],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "example": {
+                "model": "330d"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Frissítve" },
+          "404": { "description": "Nem található" }
+        }
+      },
+
+      "delete": {
+        "tags": ["Cars"],
+        "summary": "Autó törlése (admin)",
+        "security": [{ "bearerAuth": [] }],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": { "description": "Törölve" },
+          "404": { "description": "Nem található" }
+        }
+      }
+    },
+
+
+    "/repair_shops": {
+      "get": {
+        "tags": ["RepairShops"],
+        "summary": "Összes szerviz lekérése",
+        "responses": {
+          "200": { "description": "Lista" }
+        }
+      }
+    },
+
+    "/repair_shops/{shopId}/car_configs": {
+      "get": {
+        "tags": ["RepairShops"],
+        "summary": "Szervizhez tartozó autók",
+        "parameters": [
+          {
+            "name": "shopId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": { "description": "Autók listája" },
+          "404": { "description": "Nincs találat" }
+        }
+      }
+    },
+
+    "/repair_shops/{shopId}/service_records": {
+      "get": {
+        "tags": ["RepairShops"],
+        "summary": "Szervizrekordok szervizenként",
+        "parameters": [
+          {
+            "name": "shopId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": { "description": "Lista" }
+        }
+      }
+    },
+
+
+    "/service_records": {
+      "get": {
+        "tags": ["ServiceRecords"],
+        "summary": "Összes szervizrekord",
+        "security": [{ "bearerAuth": [] }],
+        "responses": {
+          "200": { "description": "Lista" }
+        }
+      },
+
+      "post": {
+        "tags": ["ServiceRecords"],
+        "summary": "Új szerviz rekord",
+        "security": [{ "bearerAuth": [] }],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "example": {
+                "car_config_id": "mongo_id",
+                "repair_shop_id": "mongo_id",
+                "employee_id": "mongo_id",
+                "service_date": "2025-01-01",
+                "description": "Olajcsere",
+                "cost": 25000
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": { "description": "Létrehozva" }
+        }
+      }
+    },
+
+    "/service_records/{id}": {
+      "patch": {
+        "tags": ["ServiceRecords"],
+        "summary": "Szerviz rekord módosítás",
+        "security": [{ "bearerAuth": [] }],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "example": {
+                "description": "Fékcsere",
+                "cost": 40000
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Frissítve" },
+          "403": { "description": "Nincs jogosultság" },
+          "404": { "description": "Nem található" }
+        }
+      },
+
+      "delete": {
+        "tags": ["ServiceRecords"],
+        "summary": "Szervizrekord törlése",
+        "security": [{ "bearerAuth": [] }],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": { "description": "Törölve" },
+          "403": { "description": "Nincs jogosultság" },
+          "404": { "description": "Nem található" }
+        }
+      }
+    }
+  }
+}
