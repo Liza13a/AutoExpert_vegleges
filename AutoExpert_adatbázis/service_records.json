@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "SR1",
+    "car_config_id": 1,
+    "repair_shop_id": 1,
+    "employee_id": 1,
+    "service_date": "2024-01-15T00:00:00.000Z",
+    "description": "Olajcsere",
+    "cost": 45000
+  },
+  {
+    "_id": "SR2",
+    "car_config_id": 2,
+    "repair_shop_id": 2,
+    "employee_id": 2,
+    "service_date": "2024-02-20T00:00:00.000Z",
+    "description": "Fékbetét csere",
+    "cost": 80000
+  },
+  {
+    "_id": "SR3",
+    "car_config_id": 3,
+    "repair_shop_id": 3,
+    "employee_id": 3,
+    "service_date": "2024-03-10T00:00:00.000Z",
+    "description": "Turbó javítás",
+    "cost": 180000
+  },
+  {
+    "_id": "SR4",
+    "car_config_id": 4,
+    "repair_shop_id": 4,
+    "employee_id": 4,
+    "service_date": "2024-04-05T00:00:00.000Z",
+    "description": "Szoftverfrissítés",
+    "cost": 35000
+  },
+  {
+    "_id": "SR5",
+    "car_config_id": 5,
+    "repair_shop_id": 5,
+    "employee_id": 5,
+    "service_date": "2024-05-18T00:00:00.000Z",
+    "description": "Általános átvizsgálás",
+    "cost": 25000
+  }
+]

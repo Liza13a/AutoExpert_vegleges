@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 1,
+    "name": "AutoFix Szerviz",
+    "address": "Budapest, Fő utca 10.",
+    "phone_number": "+36 30 111 2233"
+  },
+  {
+    "_id": 2,
+    "name": "SpeedCar Garage",
+    "address": "Debrecen, Kossuth tér 5.",
+    "phone_number": "+36 20 987 6543"
+  },
+  {
+    "_id": 3,
+    "name": "ProAuto",
+    "address": "Szeged, Tisza Lajos krt. 12.",
+    "phone_number": "+36 70 456 7788"
+  },
+  {
+    "_id": 4,
+    "name": "ElectroCar Service",
+    "address": "Győr, Ipar utca 3.",
+    "phone_number": "+36 30 999 1122"
+  },
+  {
+    "_id": 5,
+    "name": "Premium Motors",
+    "address": "Pécs, Rákóczi út 22.",
+    "phone_number": "+36 20 333 4455"
+  }
+]

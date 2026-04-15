@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 1,
+    "repair_shop_id": 1,
+    "full_name": "Kovács Péter",
+    "position": "Szerelő"
+  },
+  {
+    "_id": 2,
+    "repair_shop_id": 2,
+    "full_name": "Nagy Anna",
+    "position": "Diagnosztikus"
+  },
+  {
+    "_id": 3,
+    "repair_shop_id": 3,
+    "full_name": "Szabó László",
+    "position": "Motor specialista"
+  },
+  {
+    "_id": 4,
+    "repair_shop_id": 4,
+    "full_name": "Tóth Réka",
+    "position": "Elektromos technikus"
+  },
+  {
+    "_id": 5,
+    "repair_shop_id": 5,
+    "full_name": "Varga Zoltán",
+    "position": "Főmechanikus"
+  }
+]

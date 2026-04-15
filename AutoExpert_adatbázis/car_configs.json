@@ -1,0 +1,37 @@
+[
+  {
+    "_id": 1,
+    "user_id": 1,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "engine_type": "1.8 Hybrid"
+  },
+  {
+    "_id": 2,
+    "user_id": 2,
+    "brand": "BMW",
+    "model": "320i",
+    "engine_type": "2.0 Turbo"
+  },
+  {
+    "_id": 3,
+    "user_id": 3,
+    "brand": "Audi",
+    "model": "A4",
+    "engine_type": "2.0 TDI"
+  },
+  {
+    "_id": 4,
+    "user_id": 4,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "engine_type": "Electric"
+  },
+  {
+    "_id": 5,
+    "user_id": 5,
+    "brand": "Suzuki",
+    "model": "Swift",
+    "engine_type": "1.2 бензин"
+  }
+]
